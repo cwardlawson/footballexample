@@ -15,7 +15,7 @@ if __name__ == '__main__':
         except ValueError:
             print("invalid score" , line, end="")
             continue
-
+#
         matches.append(splitlist) # items in splitlist go into my matches blank list
     # print(matches) # now have datastructure with all matches in
     print(" R E S U L T S")
